@@ -1,55 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">  
 
-	<title>Frontend Mentor | Profile card component</title>
-	<link rel="icon" type="images/gif" href="images/favicon-32x32.png" sizes="32x32">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+	<title>Frontend Mentor | Profile card component</title>
 </head>
 <body>
-	
-	<main>
-		<div id="card">
-			<div class="top">
-				
-				<img id="victor" src="images/image-victor.jpg">
-				<div class="nametag">
-					<h3>Victor Crest <span id="age">26</span></h3>
-				
-					<p>London</p>
-				</div>
-			</div>
-
-			<div class="bottom">
-			
-				<div class="stats">
-					<h3>80K</h3>
-					<p>Followers</p>
-				</div>
-
-				<div class="stats">
-					<h3>803K</h3>
-					<p>Likes</p>
-				</div>
-
-				<div class="stats">
-					<h3>1.4K</h3>
-					<p>Photos</p>
-				</div>
-
-			</div>
-			
+	<div class="card">
+		
+		<div class="card__userInfo">
+			<img class="card__profilePic" src="images/image-victor.jpg" alt="profile_pic">
+			<h2>Victor Crest <span class="card__userInfo--age">26</span></h2>
+			<p>London</p>	
 		</div>
-	</main>
+		
+		<div class="card__userScores">
+			<div class="card__score">
+				<h2>80K</h2>
+				<p>Followers</p>
+			</div>
+			
+			<div class="card__score">
+				<h2>803K</h2>
+				<p>Likes</p>
+			</div>
 
-	<footer>
-		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    	Coded by <a href="https://github.com/AdamMintaj">AdamMintaj</a>.
+			<div class="card__score">
+				<h2>1.4K</h2>
+				<p>Photos</p>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<p>
+			Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+			Coded by <a href="https://github.com/AdamMintaj">Adam Mintaj</a>.
+		</p>
 	</footer>
-
 </body>
 </html>
