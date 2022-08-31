@@ -11,3 +11,7 @@ The challenge here was to build a simple, static profile card component accordin
 ## How it went
 
 I completed the challenge using flexbox, relative lenght units and media queries.
+
+## In case you're curious,
+
+and somehow ended up here, you might check out [my other solutions](https://www.frontendmentor.io/profile/AdamMintaj/) as well.
