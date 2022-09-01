@@ -10,7 +10,7 @@ The challenge here was to build a simple, static profile card component accordin
 
 ## How it went
 
-I completed the challenge using flexbox, relative lenght units and media queries.
+I completed the challenge using flexbox and some basic css. You can see the outcome [here](https://frontendmentor-profile-card-component-adammintaj.vercel.app/)
 
 ## In case you're curious,
 
